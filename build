@@ -10,12 +10,12 @@ passwd_list=()
 # make membersfile file
 touch members.txt
 
-filename='member.txt'
+filename='members.txt'
 # Create an empty file
 touch $filename
 # Check the file is exists or not
 if [ -f $filename ]; then
-   rm member.txt
+   rm members.txt
    echo "$filename is removed"
 fi
 
